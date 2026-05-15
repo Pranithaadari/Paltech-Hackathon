@@ -1,0 +1,26 @@
+{
+  "name": "interview-platform-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon --experimental-specifier-resolution=node src/index.js",
+    "start": "node src/index.js",
+    "migrate": "drizzle-kit push",
+    "studio": "drizzle-kit studio"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^12.10.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "drizzle-orm": "^0.30.10",
+    "express": "^4.22.2",
+    "jsonwebtoken": "^9.0.3",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.21.4",
+    "nodemon": "^3.1.14"
+  }
+}
